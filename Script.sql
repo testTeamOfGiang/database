@@ -31,7 +31,6 @@ go
 Create table [HOCVIEN_KHOAHOC] (
 	[hocvien_ma] Integer NOT NULL,
 	[khoahoc_ma] Integer NOT NULL,
-	[dongtien] Bit NOT NULL,
 Primary Key  ([hocvien_ma],[khoahoc_ma])
 ) 
 go
